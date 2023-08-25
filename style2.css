@@ -1,0 +1,126 @@
+*
+*{
+    margin: 0;
+    padding: 0;
+    
+    background-color:  hwb(61 55% 5%);;
+    border-radius: 5%; 
+}
+
+body{
+    color: rgb(90, 84, 84);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 36px;
+    background-color:  hwb(61 55% 5%);
+    gap: 20px;
+}
+
+
+  
+
+.item-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.item{
+    background-color: #4b4747;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 250px;
+    padding-inline: 250px;
+    gap: 24px;
+    font-weight: 70;
+    border-radius: 500px;
+    font-size: 1rem;
+    padding-block: 40px;
+}
+
+.container .item:nth-child(1){
+    background-color: rgba(18, 191, 197, 0.952);
+     gap: 20px;
+}
+
+.container .item:nth-child(2){
+    background-color: rgb(112, 169, 216);
+}
+
+.container .item:nth-child(3){
+    background-color: rgba(18, 191, 197, 0.952);
+}
+
+.container .item:nth-child(4){
+    background-color: rgb(112, 169, 216);
+}
+
+.item-box:nth-child(2) > .item{
+    background-color: rgba(18, 191, 197, 0.952);
+}
+
+.item-box:nth-child(3) > .item{
+    background-color: rgba(18, 191, 197, 0.952);
+  
+}
+
+.item-box:nth-child(4) > .item{
+   
+}
+
+.item-box:nth-child(5) > .item{
+    background-color: rgba(18, 191, 197, 0.952);
+}
+
+.item-box:nth-child(6   ) > .item{
+    background-color: rgb(112, 169, 216);
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(92, 80, 80);
+    cursor: pointer;
+    background-color: hwb(61 55% 5%);;
+    padding: 2px 10px;
+    border: none;
+    width: 100%;
+    height: 2rem;
+    border-radius: 8px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.resultado, input{
+    width: 30%;
+    height: 20px;
+    background-color: hwb(61 55% 5%);;
+    color: rgb(109, 95, 95);
+    display: flex;
+    padding-inline: 10px;
+    border-radius: 10px;
+}
+
+.resultado{
+    width: 90%;
+    height: 30px;
+    display: flex;}
+    
+
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+button:hover{
+    border: 0px outset;
+   
+}
